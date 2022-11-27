@@ -1,0 +1,710 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/device/alarm.o",
+            "src/device/alarm.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/device/alarm.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/isa/riscv32/logo.o",
+            "src/isa/riscv32/logo.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/isa/riscv32/logo.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/memory/paddr.o",
+            "src/memory/paddr.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/memory/paddr.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/device/intr.o",
+            "src/device/intr.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/device/intr.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/utils/state.o",
+            "src/utils/state.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/utils/state.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/isa/riscv32/instr/decode.o",
+            "src/isa/riscv32/instr/decode.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/isa/riscv32/instr/decode.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/isa/riscv32/difftest/dut.o",
+            "src/isa/riscv32/difftest/dut.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/isa/riscv32/difftest/dut.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/cpu/cpu-exec.o",
+            "src/cpu/cpu-exec.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/cpu/cpu-exec.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/device/io/port-io.o",
+            "src/device/io/port-io.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/device/io/port-io.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/isa/riscv32/system/mmu.o",
+            "src/isa/riscv32/system/mmu.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/isa/riscv32/system/mmu.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/device/timer.o",
+            "src/device/timer.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/device/timer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/monitor/sdb/expr.o",
+            "src/monitor/sdb/expr.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/monitor/sdb/expr.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/nemu-main.o",
+            "src/nemu-main.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/nemu-main.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/monitor/sdb/watchpoint.o",
+            "src/monitor/sdb/watchpoint.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/monitor/sdb/watchpoint.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/engine/interpreter/init.o",
+            "src/engine/interpreter/init.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/engine/interpreter/init.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/cpu/difftest/dut.o",
+            "src/cpu/difftest/dut.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/cpu/difftest/dut.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/device/disk.o",
+            "src/device/disk.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/device/disk.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/device/keyboard.o",
+            "src/device/keyboard.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/device/keyboard.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/utils/log.o",
+            "src/utils/log.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/utils/log.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/device/device.o",
+            "src/device/device.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/device/device.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/isa/riscv32/system/intr.o",
+            "src/isa/riscv32/system/intr.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/isa/riscv32/system/intr.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/device/io/map.o",
+            "src/device/io/map.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/device/io/map.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/utils/rand.o",
+            "src/utils/rand.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/utils/rand.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/memory/vaddr.o",
+            "src/memory/vaddr.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/memory/vaddr.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/engine/interpreter/hostcall.o",
+            "src/engine/interpreter/hostcall.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/engine/interpreter/hostcall.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/isa/riscv32/reg.o",
+            "src/isa/riscv32/reg.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/isa/riscv32/reg.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/device/serial.o",
+            "src/device/serial.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/device/serial.c"
+    },
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-I/usr/lib/llvm-11/include",
+            "-std=c++14",
+            "-fno-exceptions",
+            "-D_GNU_SOURCE",
+            "-D__STDC_CONSTANT_MACROS",
+            "-D__STDC_FORMAT_MACROS",
+            "-D__STDC_LIMIT_MACROS",
+            "-fPIE",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/utils/disasm.o",
+            "src/utils/disasm.cc"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/utils/disasm.cc"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/device/audio.o",
+            "src/device/audio.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/device/audio.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/isa/riscv32/init.o",
+            "src/isa/riscv32/init.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/isa/riscv32/init.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/utils/timer.o",
+            "src/utils/timer.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/utils/timer.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/device/io/mmio.o",
+            "src/device/io/mmio.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/device/io/mmio.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/monitor/monitor.o",
+            "src/monitor/monitor.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/monitor/monitor.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/monitor/sdb/sdb.o",
+            "src/monitor/sdb/sdb.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/monitor/sdb/sdb.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-Werror",
+            "-I/home/anya/ics2021/nemu/include",
+            "-I/home/anya/ics2021/nemu/src/isa/riscv32/include",
+            "-I/home/anya/ics2021/nemu/src/engine/interpreter",
+            "-O2",
+            "-DITRACE_COND=true",
+            "-D__GUEST_ISA__=riscv32",
+            "-o",
+            "/home/anya/ics2021/nemu/build/obj-riscv32-nemu-interpreter/src/device/vga.o",
+            "src/device/vga.c"
+        ],
+        "directory": "/home/anya/ics2021/nemu",
+        "file": "src/device/vga.c"
+    }
+]

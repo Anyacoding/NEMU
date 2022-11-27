@@ -1,0 +1,33 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "*.s": "asm-intel-x86-generic",
+        "thread": "c",
+        "syscall.h": "c",
+        "common.h": "c",
+        "bitset": "c",
+        "chrono": "c",
+        "algorithm": "c",
+        "files.h": "c",
+        "proc.h": "c",
+        "*.tcc": "cpp",
+        "cmath": "cpp",
+        "am.h": "c",
+        "klib-macros.h": "c",
+        "nemu.h": "c",
+        "riscv.h": "c",
+        "riscv32-nemu.h": "c",
+        "am-origin.h": "c",
+        "array": "c",
+        "deque": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "vector": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "regex": "c",
+        "debug.h": "c",
+        "atomic": "c",
+        "cstdint": "c"
+    }
+}
